@@ -1,0 +1,85 @@
+h1{
+	color:orange;
+	text-align:center;
+	height:70px;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:60px;
+	font-weight:bold;
+	border-radius:10px;
+	padding-top:40px;
+
+
+}/*h1 end*/
+
+.pets{
+	height:100px;
+	width:150px;
+	background-color:orange;
+	color:black;
+	padding:10px;
+	margin:30px;
+	font-weight:bold;
+	font-size:20px;
+	border-radius:20px;
+
+
+}/*pets end*/
+
+#animal-form{
+	text-align:center;
+}
+
+#buttons{
+	text-align:center;
+
+}/*button*/
+
+#animal-input{
+	background-color:orange;
+	width:200px;
+	height:50px;
+	font-size:30px;
+	border-radius:20px;
+	text-align:center;
+}/*animal-input*/
+
+label{
+	color:orange;
+	background-color:black;
+	height:300px;
+}/*label end*/
+
+#add-animal{
+	width:300px;
+	margin-bottom:50px;
+	font-size:40px;
+
+
+}
+
+
+.container{
+	background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

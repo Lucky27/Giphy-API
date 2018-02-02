@@ -1,14 +1,14 @@
 
 $(document).ready(function(){
 
-var animals = ["Kangaroo", "Giraffe", "Dog", "Lion", "Rooster"];
+var animals = ["Dogs", "Cats", "Birds", "Lions", ];
 	// console.log(animals)
 
 
 function displayAnimals(searchAnimal){
 	$("#animal-images").empty();
-	var searchQuery = searchAnimal;
-	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchQuery + "&api_key=dc6zaTOxFJmzC&limit=10"
+	var searchQuey = searchAnimal;
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchQuey + "&api_key=dc6zaTOxFJmzC&limit=10"
 
 	$.ajax({
 		url:queryURL,
